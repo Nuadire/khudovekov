@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./start.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="fon">
+        <div class="conteinerMain">
+            <div class="visualisation">
+                <img class="logo" src="./img/logo.svg" alt="iintoo">
+            </div>
+            <main class="mainConteiner">
+                <div class="header">
+                    <article class="art">
+                        <h1 class="art__title">Get iintoo it today</h1>
+                        <p class="art__subTitle">Ther is no charge or obligation upon registration.</p>
+                    </article>
+                </div>
+    
+                <div class="registerButton">
+                    <a href="" class="registerButton__connectSN registerButton__connectSN-fb">Register with Facebook</a>
+                    <a href="" class="registerButton__connectSN registerButton__connectSN-li">Register with LinkedIn</a>
+                </div>
+                <div class="separator">
+                    <span class="separator__text">OR</span>
+                </div>
+    
+                <div class="containerInput">
+                    <div class="inputData">
+                        <label class="inputData__placeholder">Email</label>
+                        <input type="email" class="inputData__input inputData__input-email">
+                    </div>
+                    <div class="inputData">
+                        <label class="inputData__placeholder">Phone</label>
+                        <input type="tel" class="inputData__input inputData__input-phone"
+                            pattern="+[0-9]{1|2} ([0-9]{3}) [0-9]{3} [0-9]{2} [0-9]{2}">
+                    </div>
+                </div>
+                <div class="headerMiddle">
+                    <article class="artMiddle">
+                        <h2 class="artMiddle__title">What type of investor are you?</h2>
+                        <p class="artMiddle__subTitle">Select the type of investor you are below.</p>
+                    </article>
+                </div>
+                <div class="containerRadio">
+                    <div class="typeRadio">
+                        <input class="typeRadio__type" type="radio" name="typeOfInvestor"  id="individualType" checked>
+                        <label class="typeRadio__label" for="individualType">Individual</label>
+                    </div>
+                    <div class="typeRadio">
+                        <input class="typeRadio__type" type="radio"  name="typeOfInvestor"  id="businessType">
+                        <label class="typeRadio__label" for="businessType">Business</label>
+                    </div>
+                    <div class="typeRadio">
+                        <input class="typeRadio__type" type="radio"  name="typeOfInvestor"  id="iraType">
+                        <label class="typeRadio__label" for="iraType">IRA</label>
+                    </div>
+                    <div class="typeRadio">
+                        <input class="typeRadio__type" type="radio"  name="typeOfInvestor"  id="trustType">
+                        <label class="typeRadio__label" for="trustType">Trust</label>
+                    </div>
+                </div>
+    
+                <p class="conteinerRadioDescripton">
+                    <span class="radioDesc">
+                        I am a natural person investing on my own behalf as a sole owner, joint tenant or tenant in common.
+                    </span>
+                </p>
+    
+                <div class="containerIagree">
+                    <input type="checkbox" class="containerIagree__check">
+                    <span class="containerIagree__text">I agree to the terms and receiving notifications from iintoo </span>
+                    <a href="" class="containerIagree__link">View full terms</a>
+                </div>
+    
+                <div class="footer">
+                    <button class="button">Create Account</button>
+                </div>
+    
+            </main>
+
+        </div>
+    </div>
+</body>
+
+</html>
