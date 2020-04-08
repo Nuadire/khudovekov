@@ -241,34 +241,6 @@
     left: -280px;
 }
 
-/* .typeRadio__label::after {
-    position: relative;
-    content: "ⓘ";
-    color: #AFAFAF;
-    left: 6px;
-    top: -1px;
-    opacity: 0.7;
-} */
-
-/* .conteinerRadioDescripton {
-    padding: 30px 0 40px 0;
-    text-align: left;
-}
-
-.radioDesc {
-    color: var(--color4);
-    font-family: var(--main-fontFamily);
-    display: inline-block;
-    padding: 10px 15px;
-    width: 270px;
-    height: 70px;
-    box-shadow: 0 14px 28px var(--color5);
-    overflow: hidden;
-    text-overflow: ellipsis;
-} */
-
-/* .containerIagree {} */
-
 .containerIagree__check {
     opacity: 0.6;
 }
